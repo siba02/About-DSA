@@ -18,7 +18,7 @@ public class TwoSum {
         int[] nums = {11, 2, 6, 15,7,23,84};
         int target = 9;
         
-        int[] result = findTwoSum(nums, target);     // static method canbe  called without creating object. 
+        int[] result = TwoSum.findTwoSum(nums, target);     // static method canbe  called without creating object. 
         
         System.out.println(result[0] + ", " + result[1]);
     }
