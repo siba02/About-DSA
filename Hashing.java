@@ -21,6 +21,9 @@ public class Hashing {
         }else{
             System.out.println("not present in the map");
         }
+        //    for map.get function if the key is already exits print the value  if doesn't exost print null.
+        System.out.println(map.get("bat")); //key is already present
+        System.out.println(map.get("shoes"));//key is not present
     }
 }
     
