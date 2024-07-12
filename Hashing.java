@@ -22,9 +22,27 @@ public class Hashing {
             System.out.println("not present in the map");
         }
         //    for map.get function if the key is already exits print the value  if doesn't exost print null.
-        System.out.println(map.get("bat")); //key is already present
-        System.out.println(map.get("shoes"));//key is not present
+        System.out.println(map.get("bat")); //key is already present. value
+        System.out.println(map.get("shoes"));//key is not present.     Null
+
+
+        // new type of for loop-- for(val:collection){print(val)}.
+        // int[] arr={1,2,3,4,5,6,7};
+        // for(int val : arr){
+        //     System.out.println(val+" ");
+        // }
+
+        // Iteration in hashmap.
+        // for (int val :arr)   int-->Map.Entry<String,Integer>  value-->entry   arr-->map.entryset()
+        // for(Map.Entry<String, Integer> entry : map.entrySet())
+       
+        for(Map.Entry<String,Integer> e : map. entrySet()){
+            System.out.println(e.getKey());
+            System.out.println(e.getValue());
+
+        }
+
     }
 }
-    
+     
 
