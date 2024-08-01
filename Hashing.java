@@ -10,6 +10,7 @@ public class Hashing {
         map.put("ball",70);
         map.put("wicket",800);
         map.put("pad",1800);
+        
 
     System.out.println(map);
     // map.put("helmet",3200);  if key is already exist  update the key ,if doesn't exist insert a new pair.
