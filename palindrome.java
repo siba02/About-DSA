@@ -13,12 +13,12 @@ class palindrome {
             temp=temp/10;
         }
         if (rev==x){
-            System.out.println(" is a palindrome");
+            System.out.println(rev+" is a palindrome");
         }
         else{
-            System.out.println(" is not a palindrome");
+            System.out.println(rev+" is not a palindrome");
         }
-        return rev==x;
+        return (rev==x);
         
     }
 
