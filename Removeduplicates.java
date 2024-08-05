@@ -1,13 +1,15 @@
 public class Removeduplicates {
     public static int[] findduplicates(int []nums){
-        int j=1;
-        for(int i=1;i<nums.length;i++){
-            if(nums[i]!=nums[i-1]){
+        int j=0;
+        for(int i=0;i<nums.length;i++){
+            if(nums[j]!=nums[i]){
+                ++j;
                 nums[j]=nums[i];
-                j++;
+                
             }
     }
-    return new int[j];
+    
+    return new int [j+1];
 }
 
 public static void main(String[] args) {
@@ -15,7 +17,8 @@ public static void main(String[] args) {
     int[]  duplicates = Removeduplicates.findduplicates(nums);
     System.out.println(duplicates.length);
     
-    }
+    
+        }
    
     }
     
