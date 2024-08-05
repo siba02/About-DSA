@@ -1,4 +1,4 @@
-// ? Twosum by Brute Force method(Easy 53%).
+// ? Twosum by Brute Force method(Easy 53% No-01).
 class TwoSum{
 
 public static int[] findTwoSum(int[] nums, int target) {      // parameterised static method.  int -- return type. findTwosum--methodname.

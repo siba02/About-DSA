@@ -1,3 +1,4 @@
+//? Remove duplicates from a sorted array.(Easy 57%  No-26).
 public class Removeduplicates {
     public static int[] findduplicates(int []nums){
         int j=0;
